@@ -52,7 +52,9 @@ const Login = () => {
                         className='form-control mt-4'  
                         placeholder='Introduce la Password' 
                         type="password" />
-                    <input className= 'btn btn-dark btn-block mt-4' value='Registrar Usuario' type="submit"/>
+                    {
+                        //<input className= 'btn btn-dark btn-block mt-4' value='Registrar Usuario' type="submit"/>
+                    }
                 </form>
                 <button 
                     onClick={LoginUsuario}

@@ -44,9 +44,21 @@ const Menu = () => {
                     </li>
                     <li>
                     {
-                        !usuario ?
+                        usuario ?
                         (
-                            <Link className='nav-link' to ='/admin'>Admin</Link>
+                            <Link className='nav-link' to ='/cliente'>Crear Cliente</Link>
+                        )
+                        :
+                        (
+                            <span></span>
+                        )
+                    }
+                    </li>
+                    <li>
+                    {
+                        usuario ?
+                        (
+                            <Link className='nav-link' to ='/cuotas'>Crear Cuotas</Link>
                         )
                         :
                         (
